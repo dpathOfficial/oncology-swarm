@@ -1,0 +1,4 @@
+from sample_reports import prostate_report_1
+from ..oncology_swarm.oncology_agents import run_report_interpretation_agents
+
+print(run_report_interpretation_agents(prostate_report_1))
